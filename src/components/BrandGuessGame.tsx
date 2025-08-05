@@ -8,12 +8,10 @@ import { Trophy, RotateCcw, Play, Send } from "lucide-react";
 import { LoginForm } from "./LoginForm";
 
 // Import Jumia brand product images
-import tecnoImage from "@/assets/tecno-phone.jpg";
-import infinixImage from "@/assets/infinix-phone.jpg";
-import oraimoImage from "@/assets/oraimo-powerbank.jpg";
-import adidasImage from "@/assets/adidas-shoes.jpg";
-import samsungImage from "@/assets/samsung-galaxy.jpg";
-import iphoneImage from "@/assets/iphone.jpg";
+import Nivea from "@/assets/Nivea.png";
+import Poco from "@/assets/Poco.png";
+import Unilever from "@/assets/Unilever.png";
+import Xiaomi from "@/assets/Xiaomi.png";
 
 interface Question {
   id: number;
@@ -25,39 +23,27 @@ interface Question {
 const questions: Question[] = [
   {
     id: 1,
-    image: tecnoImage,
-    correctAnswer: "Tecno",
-    acceptableAnswers: ["tecno", "tecno mobile", "tecno phone"]
+    image: Nivea,
+    correctAnswer: "Nivea",
+    acceptableAnswers: ["nivea", "nivea beauty", "nivea face"]
   },
   {
     id: 2,
-    image: infinixImage,
-    correctAnswer: "Infinix",
-    acceptableAnswers: ["infinix", "infinix mobile", "infinix phone"]
+    image: Poco,
+    correctAnswer: "Poco",
+    acceptableAnswers: ["poco", "Poco Store", "poco phone"]
   },
   {
     id: 3,
-    image: oraimoImage,
-    correctAnswer: "Oraimo",
-    acceptableAnswers: ["oraimo", "oraimo power bank", "oraimo powerbank"]
+    image: Unilever,
+    correctAnswer: "Unilever",
+    acceptableAnswers: ["unilever", "Unilever Store", "Unilever"]
   },
   {
     id: 4,
-    image: adidasImage,
-    correctAnswer: "Adidas",
-    acceptableAnswers: ["adidas", "adidas shoes", "adidas sneakers"]
-  },
-  {
-    id: 5,
-    image: samsungImage,
-    correctAnswer: "Samsung",
-    acceptableAnswers: ["samsung", "samsung galaxy", "samsung phone"]
-  },
-  {
-    id: 6,
-    image: iphoneImage,
-    correctAnswer: "Apple",
-    acceptableAnswers: ["apple", "iphone", "apple iphone"]
+    image: Xiaomi,
+    correctAnswer: "Xiaomi",
+    acceptableAnswers: ["Xiaomi Store", "xiaomi", "xiaomi store"]
   }
 ];
 
